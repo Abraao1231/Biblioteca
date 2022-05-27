@@ -1,0 +1,9 @@
+<div class="main">
+    <ul>
+    {% for book in data %}
+    <li><h2>{{book.nome}}</h2></li>
+        <p>{{book.autor}}</p>
+        <p>{{book.data}}</p>
+    {% endfor %}
+</ul>
+</div>
